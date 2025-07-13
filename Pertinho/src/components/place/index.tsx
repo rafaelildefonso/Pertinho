@@ -5,7 +5,7 @@ import {
   View,
   Image,
 } from "react-native"
-import { IconTicket } from "@tabler/icons-react-native"
+import { FontAwesome5 } from "@expo/vector-icons"
 
 import { s } from "./styles"
 import { colors } from "@/styles/theme"
@@ -35,7 +35,7 @@ export function Place({ data, ...rest }: Props) {
         </Text>
 
         <View style={s.footer}>
-          <IconTicket size={16} color={colors.red.base} />
+          <FontAwesome5 name="ticket-alt" size={16} color={colors.red.base} />
           <Text style={s.tickets}>{data.coupons} cupons disponíveis</Text>
         </View>
       </View>

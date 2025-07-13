@@ -1,5 +1,5 @@
 import { View, Text } from "react-native"
-import { IconPhone, IconMapPin, IconTicket } from "@tabler/icons-react-native"
+import { FontAwesome5, Feather, MaterialCommunityIcons } from "@expo/vector-icons"
 
 import { Info } from "@/components/market/info"
 import { s } from "./styles"
@@ -30,11 +30,17 @@ export function Details({ data }: Props) {
         <Text style={s.title}>Informações</Text>
 
         <Info
-          icon={IconTicket}
+          icon={props => <FontAwesome5 name="ticket-alt" size={20} color="#2D9CDB" {...props} />}
           description={`${data.coupons} cupons disponíveis`}
         />
-        <Info icon={IconMapPin} description={data.address} />
-        <Info icon={IconPhone} description={data.phone} />
+        <Info
+          icon={props => <Feather name="map-pin" size={20} color="#2D9CDB" {...props} />}
+          description={data.address}
+        />
+        <Info
+          icon={props => <Feather name="phone" size={20} color="#2D9CDB" {...props} />}
+          description={data.phone}
+        />
       </View>
 
       <View style={s.group}>

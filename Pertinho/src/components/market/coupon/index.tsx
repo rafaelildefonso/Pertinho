@@ -1,5 +1,5 @@
 import { Text, View } from "react-native"
-import { IconTicket } from "@tabler/icons-react-native"
+import { FontAwesome5 } from "@expo/vector-icons"
 
 import { s } from "./styles"
 import { colors } from "@/styles/theme"
@@ -14,7 +14,7 @@ export function Coupon({ code }: Props) {
       <Text style={s.title}>Utilize esse cupom</Text>
 
       <View style={s.content}>
-        <IconTicket size={24} color={colors.green.light} />
+        <FontAwesome5 name="ticket-alt" size={24} color={colors.green.light} />
         <Text style={s.code}>{code}</Text>
       </View>
     </View>

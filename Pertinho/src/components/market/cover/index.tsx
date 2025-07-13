@@ -1,5 +1,5 @@
 import { ImageBackground, View } from "react-native"
-import { IconArrowLeft } from "@tabler/icons-react-native"
+import { Ionicons } from "@expo/vector-icons"
 
 import { router } from "expo-router"
 
@@ -15,7 +15,7 @@ export function Cover({ uri }: Props) {
     <ImageBackground source={{ uri }} style={s.container}>
       <View style={s.header}>
         <Button style={{ width: 40, height: 40 }} onPress={() => router.back()}>
-          <Button.Icon icon={IconArrowLeft} />
+          <Button.Icon icon={Ionicons} />
         </Button>
       </View>
     </ImageBackground>
