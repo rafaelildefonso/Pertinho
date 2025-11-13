@@ -69,4 +69,4 @@ As seguintes principais ferramentas foram usadas na construção do projeto:
 
 Com tudo isso feito você consegue utilizar o app sem problemas e utilizar de seus recursos para fazer um do seu jeito.
 
-Feito por >Rafael Ildefonso](https://github.com/rafaelildefonso)
+Feito por -> [Rafael Ildefonso](https://github.com/rafaelildefonso)
