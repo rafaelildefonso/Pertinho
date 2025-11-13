@@ -6,30 +6,40 @@ Este app usaria como base de dados os estabelecimentos que faria parceria conosc
 
 ---
 
+## ⚙ Setup
+
+### 📝 Requisites
+
+Antes de baixar o projeto você vai precisar ter instalado na sua máquina as seguintes ferramentas:
+
+* [Git](https://git-scm.com)
+* [NodeJS](https://nodejs.org/en/)
+* [NPM](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/) 
+* Para reproduzir o acesso a API back-end com os dados necessários para o front-end, clone o seguinte [repositório](https://github.com/pabloxt14/nlw-journey-node) que contem a API do nosso back-end feita em Node.js e execute na sua máquina.
+
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+---
+
 ## Como preparar o aplicativo
 
-1. Instale as dependências do app
+```bash
+# Clone este repositório
+$ git clone git@github.com:rafaelildefonso/pertinho.git
 
-```sh
-npm install
-```
+# Acesse a pasta do projeto no terminal
+$ cd pertinho/pertinho
 
-2. Inicie o aplicativo no expo
+# Instale as dependências
+$ npm install
 
-```sh
-npx expo start
-```
+# Execute a API back-end
+$ cd ../api
+$ npm install
+$ npm run start
 
-3. Instale as dependencias da api local
-
-```sh
-npx prisma generate
-```
-
-4. Inicie a api localmente
-
-```sh
-npm start
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
 ```
 
 ---
