@@ -44,6 +44,21 @@ $ npm run start
 
 ---
 
+## 🛠 Technologies
+
+As seguintes principais ferramentas foram usadas na construção do projeto:
+
+- **[React Native](https://reactnative.dev/)**
+- **[Expo](https://expo.dev/)**
+- **[TypeScript](https://www.typescriptlang.org/)**
+- **[Table Icons](https://tabler.io/docs/icons/react-native)**
+- **[Axios](https://axios-http.com/ptbr/docs/intro)**
+- **[Bottom Sheet](https://github.com/gorhom/react-native-bottom-sheet)**
+- **[React Native Maps](https://docs.expo.dev/versions/latest/sdk/map-view/)**
+- **[Expo Camera](https://docs.expo.dev/versions/latest/sdk/camera/)**
+
+---
+
 ## Como usar
 
 - Escolha algum estabelecimento e clique para saber mais sobre
@@ -53,3 +68,5 @@ $ npm run start
 - Caso queira adicionar mais restaurantes coloque em "api\prisma\seed.ts".
 
 Com tudo isso feito você consegue utilizar o app sem problemas e utilizar de seus recursos para fazer um do seu jeito.
+
+Feito por >Rafael Ildefonso](https://github.com/rafaelildefonso)
