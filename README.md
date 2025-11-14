@@ -1,3 +1,7 @@
+<p>
+  <img src=".github/cover.png" alt="Capa do projeto" />
+</p>
+
 # Bem vindo ao app Pertinho 👋
 
 Este é um projeto de um aplicativo de achar locais legais perto de você.
