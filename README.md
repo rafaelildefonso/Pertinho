@@ -1,6 +1,13 @@
-<p>
-  <img src=".github/cover.png" alt="Capa do projeto" />
-</p>
+<div align="center">
+  <img src=".github/cover.png" alt="Capa do projeto" width="800"/>
+  
+  [![Versão](https://img.shields.io/badge/versão-1.0.0-blue)](https://github.com/rafaelildefonso/pertinho/releases)
+  [![React Native](https://img.shields.io/badge/React_Native-0.72.0-61DAFB?logo=react&logoColor=white)](https://reactnative.dev/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![Node.js](https://img.shields.io/badge/Node.js-18.x-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+  [![Expo](https://img.shields.io/badge/Expo-49.0.0-000020?logo=expo&logoColor=white)](https://expo.dev/)
+  [![Licença](https://img.shields.io/badge/licença-MIT-green)](LICENSE)
+</div>
 
 # Bem vindo ao app Pertinho 👋
 
@@ -60,6 +67,12 @@ As seguintes principais ferramentas foram usadas na construção do projeto:
 - **[Bottom Sheet](https://github.com/gorhom/react-native-bottom-sheet)**
 - **[React Native Maps](https://docs.expo.dev/versions/latest/sdk/map-view/)**
 - **[Expo Camera](https://docs.expo.dev/versions/latest/sdk/camera/)**
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
